@@ -67,18 +67,18 @@ public class ReportCard {
     public String toString() {
         mFinalGrade = (mTestGrade1 + mTestGrade2) / 2;
 
-        if (mFinalGrade > 6) {
+        if (mFinalGrade >= 6) {
             return "University: " + mUniversity +
                     "\nStudent: " + mStudent +
                     "\nTest 1 Grade: " + mTestGrade1 +
                     "\nTest 2 Grade: " + mTestGrade2 +
-                    "\nApproved: " + mFinalGrade + " ";
+                    "\n\n Result =\n   Approved: " + mFinalGrade + " ";
         } else {
             return "University: " + mUniversity +
                     "\nStudent: " + mStudent +
                     "\nTest 1 Grade: " + mTestGrade1 +
                     "\nTest 2 Grade: " + mTestGrade2 +
-                    "\nReproved: " + mFinalGrade + " ";
+                    "\n\nResult =\n   Reproved: " + mFinalGrade + " ";
         }
 
     }

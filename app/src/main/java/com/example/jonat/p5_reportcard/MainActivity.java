@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ReportCard boletimCompleto = new ReportCard("Estácio", "Jonathan", 6, 7, 0);
+        ReportCard boletimCompleto = new ReportCard("Estácio", "Jonathan", 6, 6, 0);
 
         TextView x = findViewById(R.id.textViewXml);
 
