@@ -70,14 +70,14 @@ public class ReportCard {
         if (mFinalGrade > 6) {
             return "University: " + mUniversity +
                     "\nStudent: " + mStudent +
-                    "\nAv1 Grade: " + mTestGrade1 +
-                    "\nAv1 Grade: " + mTestGrade2 +
+                    "\nTest 1 Grade: " + mTestGrade1 +
+                    "\nTest 2 Grade: " + mTestGrade2 +
                     "\nApproved: " + mFinalGrade + " ";
         } else {
             return "University: " + mUniversity +
                     "\nStudent: " + mStudent +
-                    "\nAv1 Grade: " + mTestGrade1 +
-                    "\nAv1 Grade: " + mTestGrade2 +
+                    "\nTest 1 Grade: " + mTestGrade1 +
+                    "\nTest 2 Grade: " + mTestGrade2 +
                     "\nReproved: " + mFinalGrade + " ";
         }
 
