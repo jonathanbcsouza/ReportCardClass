@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    tools:context="com.example.jonat.p5_reportcard.MainActivity">
+
+    <TextView
+        android:id="@+id/reportCardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="48dp"
+        android:text="Final Results"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/textViewXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:text="reportCard!"
+        android:textSize="28dp" />
+
+</LinearLayout>
