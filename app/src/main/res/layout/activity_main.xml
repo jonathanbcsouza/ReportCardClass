@@ -13,15 +13,36 @@
         android:layout_height="wrap_content"
         android:paddingBottom="48dp"
         android:text="Final Results"
-        android:textSize="48dp" />
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/score_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter score 1:"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/score_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter score 2:"
+        android:inputType="number"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/bnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
 
     <TextView
         android:id="@+id/textViewXml"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:gravity="center"
-        android:paddingLeft="16dp"
+        android:inputType="number"
         android:text="reportCard!"
-        android:textSize="28dp" />
-
+        android:textSize="24sp" />
 </LinearLayout>
